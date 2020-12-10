@@ -15,6 +15,7 @@ while(bandera):
     mensajeFinal = "%s%d.) Nombre: %s / Edad: %s\n" % (mensajeFinal, \
             contador, nombre, edad)
     salir = input("Desea salir, ingrese si: ")
+    salir  =  salir . inferior ()
     if salir == "si":
         bandera = False
 
